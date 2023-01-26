@@ -1485,7 +1485,7 @@
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px) ;
   grid-gap: 10px 10px;
   min-height: 396px;
 }
@@ -1953,6 +1953,15 @@
   margin: 0 auto;
 }
 
+.u-section-5 .u-image-5 {
+  height: 213px;
+  width: 213px;
+  background-image: url("images/tanuj.jpeg");
+  background-position: 50% 50%;
+  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.4);
+  margin: 0 auto;
+}
+
 .u-section-5 .u-text-6 {
   margin: 15px 0 0;
 }
@@ -1964,6 +1973,14 @@
 .u-section-5 .u-container-layout-4 {
   padding: 30px;
 }
+.u-section-5 .u-container-layout-5 {
+  padding: 30px;
+}
+
+.u-section-5 .u-container-layout-6 {
+  padding: 30px;
+}
+
 
 .u-section-5 .u-image-4 {
   height: 213px;
@@ -1994,7 +2011,7 @@
   }
 
   .u-section-5 .u-repeater-1 {
-    grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
+    grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) ;
     min-height: 728px;
   }
 
@@ -2045,7 +2062,7 @@
   }
 
   .u-section-5 .u-repeater-1 {
-    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px) ;
   }
 
   .u-section-5 .u-text-3 {
